@@ -1,0 +1,19 @@
+Instruction guide: To run this small application
+* Prerequisite:
+    - Java/JDK8+ installed
+    - Maven installed
+* Build
+    - Open terminal OR command line window
+    - Navigate to project location
+    - Type this: mvn clean package
+* Run
+    - Open terminal OR command line window
+    - Navigate to jar file location: [project]/target
+    - Type this: java -jar [built_jar_file_name.jar]
+* Test
+    - Open terminal OR command line window
+    - Navigate to project location
+    - Type this:
+            mvn -Dtest=InputReadImpl_UT test
+                OR
+            mvn -Dtest=WaterLevelImplUT test
